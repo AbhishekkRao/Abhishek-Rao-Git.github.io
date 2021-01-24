@@ -4,6 +4,12 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $("#mobile-icon1").click(function(){
+        $("#mobile-menu-links").slideToggle();
+    });
+});
+
 $(window).on("load", function () {
     $(".loader-container").fadeOut(3000);
 });

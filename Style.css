@@ -50,6 +50,16 @@ nav {
     color: #ffffff;
 }
 
+.name1 {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 11px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
 /* List Items */
 .animate {
     padding: 10px 10px;
@@ -256,6 +266,10 @@ h1 {
     #mobile-icon{
         float: right;
     }
+    #mobile-icon1{
+        float: right;
+        padding-top: 15px;
+    }
     .content{
         display: none;
     }
@@ -296,6 +310,18 @@ h1 {
 }
 
 @media only screen and (min-width:980px min-height:0px  ){
+    #mobile-menu{
+        display: none;
+    }
+    .mob-links{
+        display: none;
+    }
+    .contentmob{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:981px){
     #mobile-menu{
         display: none;
     }
