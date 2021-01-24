@@ -331,4 +331,13 @@ h1 {
     .contentmob{
         display: none;
     }
+    #mobile-menuH{
+        display: none;
+    }
+    .contentmobH{
+        display: none;
+    }
+    .contentmobS{
+        display: none;
+    }
 }
