@@ -163,23 +163,34 @@ h1 {
     margin-left: auto;
 }
 
-.centertext1 {
-    text-align: center;
-}
-
 .contentmob{
-    padding-left: 20px;
+    padding-left: 50px;
     color: #ffffff;
     text-align: center;
-    padding-right: 20px;
+    padding-right: 50px;
+    padding-bottom: 50px;
 }
 
-.contentmob img{
-    width: 300px;
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-top: 50px;
-    display: flex;
+.contentmobH{
+    padding-left: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    zoom: 300%;
+}
+
+.contentmobS{
+    padding-left: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    zoom: 200%;
+}
+
+#mobimg{
+    width: 50%;
 }
 
 .column {
@@ -231,6 +242,13 @@ h1 {
     background-image: url(./img/dott_1.jpg);
 }
 
+#mobile-menuH{
+    min-height: 40px;
+    padding: 20px;
+    background-image: url(./img/dott_1.jpg);
+    zoom: 150%;
+}
+
 @media only screen and (max-width:980px){
     #top-menu{
         display: none;
@@ -245,7 +263,8 @@ h1 {
     #mobile-menu-links{
         position: fixed;
         right: 0;
-        width: 100px;
+        width: 175px;
+        height: 200px;
     }
 
     .mob-links{
@@ -253,22 +272,30 @@ h1 {
     }
 
     .mob-menu{
-        font-size: 18px;
+        font-size: 30px;
         color: #ffffff;
         text-decoration: none;
         display: block;
         height: 50px;
         line-height: 50px;
         text-align: center;
+        padding-top: 20px;
     }
 
     .mob-menu:hover{
         background-color: #ffffff;
         color: #111;
     }
+    .contentmob img{
+        width: 300px;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 50px;
+        display: flex;
+}
 }
 
-@media only screen and (min-width:980px){
+@media only screen and (min-width:980px min-height:0px  ){
     #mobile-menu{
         display: none;
     }
